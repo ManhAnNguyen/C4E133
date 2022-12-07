@@ -20,7 +20,7 @@ const input = document.querySelector("#input");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const valueInput = input.value;
-  if (valueInput === "") return alert("Yeu cau nhap du");
+  // if (valueInput === "") return alert("Yeu cau nhap du");
   if (valueInput.length < 5) return alert("Todo fai lon hon 5!");
   //1
   const div = document.createElement("div");
