@@ -1,27 +1,37 @@
-import dataJson from "./data.json";
+// import myJson from "./data.json" assert { type: "json" };
 
-const data = [
-  {
-    username: "manhan",
-    password: "abc123",
-  },
-];
+// console.log(myJson);
 
-const username = document.getElementById("inputName");
-const password = document.getElementById("inputPassword");
-const form = document.getElementById("form");
+// const data = [
+//   {
+//     username: "manhan",
+//     password: "abc123",
+//   },
+// ];
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const valueUsername = username.value;
-  const valuePassword = password.value;
+// const username = document.getElementById("inputName");
+// const password = document.getElementById("inputPassword");
+// const form = document.getElementById("form");
 
-  const existingUser = data.find(
-    (el) => el.username === valueUsername && el.password === valuePassword
-  );
-  if (existingUser !== undefined) {
-    alert("Welcome");
-  } else {
-    alert("Information is not correct");
-  }
-});
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   const valueUsername = username.value;
+//   const valuePassword = password.value;
+
+//   const existingUser = data.find(
+//     (el) => el.username === valueUsername && el.password === valuePassword
+//   );
+//   if (existingUser !== undefined) {
+//     alert("Welcome");
+//   } else {
+//     alert("Information is not correct");
+//   }
+// });
+
+// const callBtn = document.querySelector("#call-btn");
+
+// callBtn.addEventListener("click", async () => {
+//   const res = await fetch("https://fakestoreapi.com/products");
+//   const data = await res.json();
+//   console.log(data);
+// });
