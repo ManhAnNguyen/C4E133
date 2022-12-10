@@ -23,5 +23,5 @@ clone về git clone
 - đẩy lên :
   git add .
   git commit -m 'message'
-  git remote add origin 'url git'
+  git remote add origin 'url git' //chua add
   git push
